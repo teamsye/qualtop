@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_l10n_mx_edi_qualtop_invoice_form_inherit" model="ir.ui.view">
+        <field name="name">l10n_mx_edi.qualtop.invoice.form.inherit</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.invoice_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/group//group[last()]" position="inside">
+                <field name="l10n_mx_edi_cfdi_second" filename="l10n_mx_edi_cfdi_second_name" attrs="{'readonly': [('state', 'in', ['open', 'paid'])]}"/>
+                <field name="l10n_mx_edi_cfdi_second_name" invisible="1" class="oe_inline oe_right"/>
+            </xpath>
+            <xpath expr="//field[@name='comment']" position="after">
+                <field name="l10n_mx_edi_comments" placeholder="Extra comments"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

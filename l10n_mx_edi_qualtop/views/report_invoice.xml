@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_invoice_document_mx" inherit_id="account.report_invoice_document">
+        <xpath expr="//div[@id='total']" position="inside">
+            <div class="col-xs-7">
+                <span t-field="o.l10n_mx_edi_comments"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>
