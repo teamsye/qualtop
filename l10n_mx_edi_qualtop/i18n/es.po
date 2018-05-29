@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#    * l10n_mx_edi_qualtop
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 17:33+0000\n"
+"PO-Revision-Date: 2018-05-29 17:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mx_edi_qualtop
+#: model:ir.model.fields,field_description:l10n_mx_edi_qualtop.field_account_invoice_l10n_mx_edi_cfdi_second
+msgid "CFDI"
+msgstr "CFDI"
+
+#. module: l10n_mx_edi_qualtop
+#: model:ir.model.fields,field_description:l10n_mx_edi_qualtop.field_account_invoice_l10n_mx_edi_comments
+msgid "Comments"
+msgstr "Comentarios"
+
+#. module: l10n_mx_edi_qualtop
+#: model:ir.ui.view,arch_db:l10n_mx_edi_qualtop.view_l10n_mx_edi_qualtop_invoice_form_inherit
+msgid "Extra comments"
+msgstr "Comentarios extra"
+
+#. module: l10n_mx_edi_qualtop
+#: model:ir.model.fields,help:l10n_mx_edi_qualtop.field_account_invoice_l10n_mx_edi_cfdi_second
+msgid "If this invoice was signed with other system, add here the CFDI to avoid sign the invoice"
+msgstr "Si esta factura fue timbrada con otro sistema, añada aquí el CFDI para evitar que se timbre la factura"
+
+#. module: l10n_mx_edi_qualtop
+#: model:ir.model,name:l10n_mx_edi_qualtop.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_mx_edi_qualtop
+#: model:ir.model.fields,field_description:l10n_mx_edi_qualtop.field_account_invoice_l10n_mx_edi_cfdi_second_name
+msgid "Name of second CFDI"
+msgstr "Nombre del segundo CFDI"
+
+#. module: l10n_mx_edi_qualtop
+#: code:addons/l10n_mx_edi_qualtop/models/account_invoice.py:26
+#, python-format
+msgid "This CFDI was not signed with Odoo"
+msgstr "Este CFDI no fue timbrado con Odoo"
