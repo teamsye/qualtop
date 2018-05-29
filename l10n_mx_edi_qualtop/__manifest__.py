@@ -7,6 +7,7 @@
     'category': 'Hidden',
     'summary': 'Mexican Localization for EDI documents qualtop',
     'depends': [
+        'l10n_mx',
         'l10n_mx_edi',
     ],
     'data': [
