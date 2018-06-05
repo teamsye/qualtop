@@ -26,4 +26,33 @@
             </xpath>
         </field>
     </record>
+    <record id="view_qualtop_invoice_form_inherit" model="ir.ui.view">
+        <field name="name">qualtop.invoice.form.inherit</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.invoice_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='tax_line_ids']" position="after">
+                <group>
+                    <group>
+                        <field name="administrative"/>
+                        <field name="special"/>
+                        <field name="concurrent"/>
+                        <field name="operative"/>
+                    </group>
+                    <group>
+                        <field name="administrative_income"/>
+                        <field name="special_income"/>
+                        <field name="concurrent_income"/>
+                        <field name="operative_income"/>
+                    </group>
+                    <group>
+                        <field name="administrative_share"/>
+                        <field name="special_share"/>
+                        <field name="concurrent_share"/>
+                        <field name="operative_share"/>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
 </odoo>
