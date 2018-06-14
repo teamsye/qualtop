@@ -13,6 +13,7 @@
         'sale_management',
     ],
     'data': [
+        "data/data.xml",
         "views/account_invoice_view.xml",
         "views/sale_views.xml",
         "views/report_invoice.xml",
