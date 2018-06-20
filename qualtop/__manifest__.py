@@ -1,7 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Qualtop App',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.1',
     "author": "Vauxoo",
     "license": "LGPL-3",
     'category': 'Hidden',
