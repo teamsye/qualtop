@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* qualtop
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-13 13:35+0000\n"
+"PO-Revision-Date: 2018-08-13 11:43-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_administrative
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_administrative
+msgid "Administrative"
+msgstr "Administrativo"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_administrative_income
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_administrative_income
+msgid "Administrative Income"
+msgstr "Ingresos Administrativos"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_administrative_share
+msgid "Administrative Share"
+msgstr "Distribución Administrativa"
+
+#. module: qualtop
+#: sql_constraint:account.invoice:0
+msgid "All Distribution must positive numbers !"
+msgstr "¡Toda distribución debe tener números positivos!"
+
+#. module: qualtop
+#: model:ir.actions.server,name:qualtop.approve_payment_on_invoice
+msgid "Approve Payment on Invoices"
+msgstr "Aprobar Pago en Facturas"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_approved_payment
+msgid "Approved Payment"
+msgstr "Pago Aprobado"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_concurrent
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_concurrent
+msgid "Concurrent"
+msgstr "Concurrente"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_concurrent_income
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_concurrent_income
+msgid "Concurrent Income"
+msgstr "Ingresos Concurrentes"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_concurrent_share
+msgid "Concurrent Share"
+msgstr "Distribución Concurrente"
+
+#. module: qualtop
+#: model:ir.actions.server,name:qualtop.disapprove_payment_on_invoice
+msgid "Disapprove Payment on Invoices"
+msgstr "Desaprobar Pago en Facturas"
+
+#. module: qualtop
+#: model:ir.model,name:qualtop.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: qualtop
+#: model:ir.model,name:qualtop.model_account_invoice_report
+msgid "Invoices Statistics"
+msgstr "Estadísticas de Facturación"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_operative
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_operative
+msgid "Operative"
+msgstr "Operativo"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_operative_income
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_operative_income
+msgid "Operative Income"
+msgstr "Ingreso Operativo"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_operative_share
+msgid "Operative Share"
+msgstr "Distribución Operativa"
+
+#. module: qualtop
+#: model:ir.ui.view,arch_db:qualtop.view_account_invoice_filter
+msgid "Show all records which are unpaid and have no payment scheduled"
+msgstr "Mostrar todos los registros que no se han pagado y no tienen pagos programados"
+
+#. module: qualtop
+#: model:ir.ui.view,arch_db:qualtop.view_account_invoice_filter
+msgid "Show all records which are unpaid and have payment scheduled"
+msgstr "Mostrar todos los registros que no se han pagado y tienen pagos programados"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_special
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_special
+msgid "Special"
+msgstr "Especial"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_special_income
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_special_income
+msgid "Special Income"
+msgstr "Ingreso Especial"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_special_share
+msgid "Special Share"
+msgstr "Distribución Especial"
+
+#. module: qualtop
+#: model:ir.ui.view,arch_db:qualtop.view_account_invoice_filter
+msgid "Unpaid Invoices with Approved Payment"
+msgstr "Facturas no Pagadas con Pago Aprobado"
+
+#. module: qualtop
+#: model:ir.ui.view,arch_db:qualtop.view_account_invoice_filter
+msgid "Unpaid Invoices without Approved Payment"
+msgstr "Facturas no Pagadas sin Pago Aprobado"
+
+#. module: qualtop
+#: sql_constraint:account.invoice:0
+msgid "Wrong Distribution Shares !"
+msgstr "¡Distribuciones Erróneas!"
