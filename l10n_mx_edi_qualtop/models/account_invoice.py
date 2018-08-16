@@ -39,3 +39,10 @@ class AccountInvoice(models.Model):
             })
             inv.l10n_mx_edi_cfdi_name = inv.l10n_mx_edi_cfdi_second_name
         return result
+
+    @api.multi
+    def _l10n_mx_edi_create_cfdi_values(self):
+        values = super()._l10n_mx_edi_create_cfdi_values()
+        values['payment_policy'] = 'PUE' if (
+            self.type == 'out_refund') else values['payment_policy']
+        return values
