@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* qualtop
+#	* qualtop
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-13 13:35+0000\n"
-"PO-Revision-Date: 2018-08-13 11:43-0400\n"
+"POT-Creation-Date: 2018-08-28 07:39+0000\n"
+"PO-Revision-Date: 2018-08-28 07:39+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -38,6 +38,16 @@ msgid "All Distribution must positive numbers !"
 msgstr "¡Toda distribución debe tener números positivos!"
 
 #. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_crm_lead_analytic_id
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_crm_lead_analytic_tag_ids
+msgid "Analytic Tags"
+msgstr "Etiquetas Analíticas"
+
+#. module: qualtop
 #: model:ir.actions.server,name:qualtop.approve_payment_on_invoice
 msgid "Approve Payment on Invoices"
 msgstr "Aprobar Pago en Facturas"
@@ -65,6 +75,11 @@ msgid "Concurrent Share"
 msgstr "Distribución Concurrente"
 
 #. module: qualtop
+#: model:ir.model,name:qualtop.model_account_invoice_refund
+msgid "Credit Note"
+msgstr "Rectificativa"
+
+#. module: qualtop
 #: model:ir.actions.server,name:qualtop.disapprove_payment_on_invoice
 msgid "Disapprove Payment on Invoices"
 msgstr "Desaprobar Pago en Facturas"
@@ -75,9 +90,24 @@ msgid "Invoice"
 msgstr "Factura"
 
 #. module: qualtop
+#: model:ir.model,name:qualtop.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Linea de la Factura"
+
+#. module: qualtop
 #: model:ir.model,name:qualtop.model_account_invoice_report
 msgid "Invoices Statistics"
-msgstr "Estadísticas de Facturación"
+msgstr "Estadísticas de facturación"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_account_invoice_line_lead_id
+msgid "Lead"
+msgstr "Iniciativa"
+
+#. module: qualtop
+#: model:ir.model,name:qualtop.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
 
 #. module: qualtop
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_operative
@@ -95,6 +125,12 @@ msgstr "Ingreso Operativo"
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_operative_share
 msgid "Operative Share"
 msgstr "Distribución Operativa"
+
+#. module: qualtop
+#: model:base.automation,name:qualtop.action_set_code_analytic_account
+#: model:ir.actions.server,name:qualtop.action_set_code_analytic_account_ir_actions_server
+msgid "Set code in analytic accounts"
+msgstr "Establecer Código en Cuentas Analíticas"
 
 #. module: qualtop
 #: model:ir.ui.view,arch_db:qualtop.view_account_invoice_filter
