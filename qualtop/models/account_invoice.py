@@ -1,6 +1,12 @@
 from odoo import fields, models, api
 
 
+class AccountInvoiceLine(models.Model):
+    _inherit = 'account.invoice.line'
+
+    lead_id = fields.Many2one('crm.lead', copy=False)
+
+
 class AccountInvoice(models.Model):
     _inherit = 'account.invoice'
 
