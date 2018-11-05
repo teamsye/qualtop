@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
+    <template id="report_invoice_document" inherit_id="l10n_mx_edi.report_invoice_document_mx">
+        <xpath expr="//p[@t-if='o.payment_term_id']" position="replace">
+        </xpath>
+    </template>
+
 </odoo>
