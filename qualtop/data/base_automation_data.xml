@@ -12,6 +12,46 @@ for rec in records:
             <field name="trigger">on_create</field>
             <field name="active" eval="True"/>
         </record>
+        <record id="action_lead_analytic_account" model="base.automation">
+            <field name="name">Set analytic account in lead</field>
+            <field name="model_id" ref="crm.model_crm_lead"/>
+            <field name="state">code</field>
+            <field name="code">
+if not record.analytic_id:
+  analytic_id = env['account.analytic.account'].create({
+    'name': record.name,
+    'tag_ids': [(4, tag) for tag in record.analytic_tag_ids.ids]
+    })
+  record.write({'analytic_id': analytic_id.id})
+            </field>
+            <field name="trigger">on_create</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="action_update_tags_analytic_account" model="base.automation">
+            <field name="name">Update tags in analytic account with tags in lead</field>
+            <field name="model_id" ref="crm.model_crm_lead"/>
+            <field name="state">code</field>
+            <field name="code">
+dif_tags = record.analytic_tag_ids - record.analytic_id.tag_ids
+if dif_tags:
+  record.analytic_id.write({'tag_ids': [(4, tag) for tag in dif_tags.ids]})
+            </field>
+            <field name="trigger">on_write</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record id="action_sale_analytic_account" model="base.automation">
+            <field name="name">Set analytic account in sale with lead</field>
+            <field name="model_id" ref="sale.model_sale_order"/>
+            <field name="state">code</field>
+            <field name="code">
+if record.opportunity_id and record.opportunity_id.analytic_id:
+  record.write({'analytic_account_id': record.opportunity_id.analytic_id.id})
+  for line in record.order_line:
+    line.write({'analytic_tag_ids': [(4,tag) for tag in record.opportunity_id.analytic_id.tag_ids.ids]})
+            </field>
+            <field name="trigger">on_create_or_write</field>
+            <field name="active" eval="True"/>
+        </record>
     </data>
 </odoo>
 
