@@ -12,6 +12,8 @@
         'analytic',
         'purchase',
         'sale_management',
+        # Tools
+        'base_automation',
     ],
     'data': [
         "data/data.xml",
