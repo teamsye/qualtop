@@ -1,19 +1,126 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* qualtop
+# 	* qualtop
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-28 07:39+0000\n"
-"PO-Revision-Date: 2018-08-28 07:39+0000\n"
+"POT-Creation-Date: 2019-03-15 18:48+0000\n"
+"PO-Revision-Date: 2019-03-15 14:52-0400\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.0.5\n"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2019"
+msgstr "2019"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2020"
+msgstr "2020"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2021"
+msgstr "2021"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2022"
+msgstr "2022"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2023"
+msgstr "2023"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2024"
+msgstr "2024"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2025"
+msgstr "2025"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2026"
+msgstr "2026"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2027"
+msgstr "2027"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2028"
+msgstr "2028"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2029"
+msgstr "2029"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2030"
+msgstr "2030"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2031"
+msgstr "2031"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2032"
+msgstr "2032"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2033"
+msgstr "2033"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2034"
+msgstr "2034"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2035"
+msgstr "2035"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2036"
+msgstr "2036"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2037"
+msgstr "2037"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2038"
+msgstr "2038"
+
+#. module: qualtop
+#: selection:sale.order,service_year:0
+msgid "2039"
+msgstr "2039"
 
 #. module: qualtop
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_administrative
@@ -58,6 +165,16 @@ msgid "Approved Payment"
 msgstr "Pago Aprobado"
 
 #. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "April"
+msgstr "Abril"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "August"
+msgstr "Agosto"
+
+#. module: qualtop
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_concurrent
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_report_concurrent
 msgid "Concurrent"
@@ -80,9 +197,19 @@ msgid "Credit Note"
 msgstr "Rectificativa"
 
 #. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "December"
+msgstr "Diciembre"
+
+#. module: qualtop
 #: model:ir.actions.server,name:qualtop.disapprove_payment_on_invoice
 msgid "Disapprove Payment on Invoices"
 msgstr "Desaprobar Pago en Facturas"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "February"
+msgstr "Febrero"
 
 #. module: qualtop
 #: model:ir.model,name:qualtop.model_account_invoice
@@ -100,6 +227,21 @@ msgid "Invoices Statistics"
 msgstr "Estadísticas de facturación"
 
 #. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "January"
+msgstr "Enero"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "July"
+msgstr "Julio"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "June"
+msgstr "Junio"
+
+#. module: qualtop
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_line_lead_id
 msgid "Lead"
 msgstr "Iniciativa"
@@ -108,6 +250,26 @@ msgstr "Iniciativa"
 #: model:ir.model,name:qualtop.model_crm_lead
 msgid "Lead/Opportunity"
 msgstr "Iniciativa/Oportunidad"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "March"
+msgstr "Marzo"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "May"
+msgstr "Mayo"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "November"
+msgstr "Noviembre"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "October"
+msgstr "Octubre"
 
 #. module: qualtop
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_operative
@@ -125,6 +287,43 @@ msgstr "Ingreso Operativo"
 #: model:ir.model.fields,field_description:qualtop.field_account_invoice_operative_share
 msgid "Operative Share"
 msgstr "Distribución Operativa"
+
+#. module: qualtop
+#: model:ir.model,name:qualtop.model_sale_order
+msgid "Quotation"
+msgstr "Presupuesto"
+
+#. module: qualtop
+#: selection:sale.order,service_month:0
+msgid "September"
+msgstr "Septiembre"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_sale_order_service_month
+msgid "Service Month"
+msgstr "Mes del Servicio"
+
+#. module: qualtop
+#: model:ir.model.fields,field_description:qualtop.field_sale_order_service_year
+msgid "Service Year"
+msgstr "Año del Servicio"
+
+#. module: qualtop
+#: model:ir.ui.view,arch_db:qualtop.view_order_form_qualtop
+msgid "Service month"
+msgstr "Mes del Servicio"
+
+#. module: qualtop
+#: model:base.automation,name:qualtop.action_lead_analytic_account
+#: model:ir.actions.server,name:qualtop.action_lead_analytic_account_ir_actions_server
+msgid "Set analytic account in lead"
+msgstr "Set analytic account in lead"
+
+#. module: qualtop
+#: model:base.automation,name:qualtop.action_sale_analytic_account
+#: model:ir.actions.server,name:qualtop.action_sale_analytic_account_ir_actions_server
+msgid "Set analytic account in sale with lead"
+msgstr "Set analytic account in sale with lead"
 
 #. module: qualtop
 #: model:base.automation,name:qualtop.action_set_code_analytic_account
@@ -168,6 +367,12 @@ msgstr "Facturas no Pagadas con Pago Aprobado"
 #: model:ir.ui.view,arch_db:qualtop.view_account_invoice_filter
 msgid "Unpaid Invoices without Approved Payment"
 msgstr "Facturas no Pagadas sin Pago Aprobado"
+
+#. module: qualtop
+#: model:base.automation,name:qualtop.action_update_tags_analytic_account
+#: model:ir.actions.server,name:qualtop.action_update_tags_analytic_account_ir_actions_server
+msgid "Update tags in analytic account with tags in lead"
+msgstr "Update tags in analytic account with tags in lead"
 
 #. module: qualtop
 #: sql_constraint:account.invoice:0
